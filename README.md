@@ -1,7 +1,14 @@
-# YOLO Models to other frameworks
 Currently the repo contains only Darknet-based YOLO models converted to TensorFlow using [Darkflow](https://github.com/thtrieu/darkflow). 
 
-The conversion for the YOLO v2-tiny (COCO dataset) is done as:
+## Some of the already converted model files are linked below
+|YOLO Model | Train Dataset | mAP | FPS | Frozen Model (.pb) | Metafile
+|--|--|--|--|--|--|
+|Darknet19 (448x448) | VOC-1000 | 76.4 | - | [pb](https://drive.google.com/file/d/1-JcltriqDR8UYFCvjdiMi5EZHSkhEEO4/view?usp=sharing) | [meta](https://drive.google.com/file/d/1-KP9mzUEIVjDGJPGM1P8JcWjd6CUe_LW/view?usp=sharing)|
+|v2-tiny | COCO | - | 200 | [pb](https://drive.google.com/file/d/1-PKlksWFeOYD96vDik4KCoOoEJKLeVhn/view?usp=sharing) | [meta](https://drive.google.com/file/d/1-SFr-R1SkxC7ZP-56-BBt-9ieab8WOgn/view?usp=sharing)|
+|v2-tiny | VOC | 57.1 |207 | failed | failed|
+
+
+## The conversion for the YOLO v2-tiny (COCO dataset) is done as:
 
 1) Install Dependencies
 ```
