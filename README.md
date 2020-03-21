@@ -1,4 +1,5 @@
-Currently the repo contains only Darknet-based YOLO models converted to TensorFlow using [Darkflow](https://github.com/thtrieu/darkflow). 
+The repo is a coalesced work of the original [darkflow] repo and the 
+Currently the repo contains only Darknet-based YOLO models converted to TensorFlow using [Darkflow](https://github.com/thtrieu/darkflow) and a hands-on [tutorial](https://www.google.com/url?q=https%3A%2F%2Fpjreddie.com%2Fmedia%2Ffiles%2Fdarknet19_448.conv.23&sa=D&sntz=1&usg=AFQjCNF9kw6_BoBfDlIKbFiwW4KTqBJHhQ) by [Zoltan Szabo](https://www.google.com/url?q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fzoltanszabo91%2F&sa=D&sntz=1&usg=AFQjCNG97v-jGxn8_ZThgh83n7yufb2KMg). 
 
 ## Some of the already converted model files are linked below
 |YOLO Model | Train Dataset | mAP | FPS | Frozen Model (.pb) | Metafile
