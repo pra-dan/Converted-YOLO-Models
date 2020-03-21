@@ -49,4 +49,4 @@ _Note: We keep cfg files in the darkflow/cfg directory and the weights in the da
 !./flow --model cfg/yolo-v2-tiny-coco.cfg --load weights/yolo-v2-tiny-coco.weights --savepb
 ```
 
-## Done ! You should be able to find your converted frozen graph in the `darkflow/built_graph` directory
+**Done ! You should be able to find your converted frozen graph in the `darkflow/built_graph` directory**
